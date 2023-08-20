@@ -4,7 +4,7 @@ const secp = require ('ethereum-cryptography/secp256k1')
 const {assert} = require ('chai')
 const {toHex} = require('ethereum-cryptography/utils');
 
-const PRIVATE_KEY = "6b911fd37cdf5c81d4c0adb1ab7fa822ed253ab0ad9aa18d77257c88b29b718e";
+const PRIVATE_KEY = "64_private_key_length";
 
 describe('Recover Key', () => {
     it('should recover the public key from a signed message', async () => {
